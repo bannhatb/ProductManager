@@ -1,0 +1,7 @@
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/ProductManager
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/appsettings.Development.json
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/appsettings.json
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/ProductManager.dll
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/ProductManager.deps.json
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/ProductManager.runtimeconfig.json
+/Users/vovanban/Projects/C#/MVC/ProductManager/bin/Debug/net6.0/publish/ProductManager.pdb

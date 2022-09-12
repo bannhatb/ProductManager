@@ -1,0 +1,30 @@
+@model List<Category>;
+@{
+    ViewData["Title"] = "Category Page";
+    var categories = Model;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Category</h1>
+    <table class="table table-stripd table-hover">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+        </thead>
+        <tbody>
+            @foreach (var category in categories)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                    <td>
+                        <a href="/Category/Update/@category.Id" class="btn btn-success">Update</a>
+                        <a href="/Category/Delete/@category.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Category/Create" class="btn btn-primary">Add category</a>
+
+</div>
