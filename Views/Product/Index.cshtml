@@ -26,7 +26,8 @@
                     <td>@product.Price$</td>
                     <td>@product.Quantity</td>
                     <td>@product.Slug</td>
-                    <td>@categories.GetCategoryById(product.CategoryId).Name</td>
+                    <td>@product.Category.Name</td>
+                    @* <td>@categories.GetCategoryById(product.CategoryId).Name</td> *@
                     <td>
                         <a href="/Product/Update/@product.Id" class="btn btn-success">Update</a>
                         <a href="/Product/Delete/@product.Id" class="btn btn-danger">Delete</a>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ProductManager.Models;
-
+using Microsoft.EntityFrameworkCore;
 namespace ProductManager.Services
 {
     public class ProductService : IProductService
@@ -24,7 +24,10 @@ namespace ProductManager.Services
 
         public List<Product> GetProducts()
         {
-            return _dataContext.Products.ToList();
+            return _dataContext
+            .Products
+            .Include(p => p.Category)
+            .ToList();
         }
 
         public void CreateProduct(Product product)
