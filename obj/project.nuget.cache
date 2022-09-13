@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrDAPMV/Z6b5bs71NECmmaQN/Nb52G2GVG41mg7YZYZeva0IiF3xLBm/4xAtLOASd4NMI0EiiHYkFi0g8Zss8Q==",
+  "dgSpecHash": "xkMjawV3htHPFtASX6azja3Jg8J719BR/sSFsJzr+9cmymoU9FUPEDpsIjmeBooqKfZIBfup24mA9hvunMJ7ng==",
   "success": true,
-  "projectFilePath": "/Users/vovanban/Projects/C#/MVC/ProductManager/ProductManager.csproj",
+  "projectFilePath": "/Users/vovanban/Documents/VS_code/C#/MVC/ProductManager/ProductManager.csproj",
   "expectedPackageFiles": [
     "/Users/vovanban/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/vovanban/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

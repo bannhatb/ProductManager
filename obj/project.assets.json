@@ -2056,11 +2056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vovanban/Projects/C#/MVC/ProductManager/ProductManager.csproj",
+      "projectUniqueName": "/Users/vovanban/Documents/VS_code/C#/MVC/ProductManager/ProductManager.csproj",
       "projectName": "ProductManager",
-      "projectPath": "/Users/vovanban/Projects/C#/MVC/ProductManager/ProductManager.csproj",
+      "projectPath": "/Users/vovanban/Documents/VS_code/C#/MVC/ProductManager/ProductManager.csproj",
       "packagesPath": "/Users/vovanban/.nuget/packages/",
-      "outputPath": "/Users/vovanban/Projects/C#/MVC/ProductManager/obj/",
+      "outputPath": "/Users/vovanban/Documents/VS_code/C#/MVC/ProductManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vovanban/.nuget/NuGet/NuGet.Config"
